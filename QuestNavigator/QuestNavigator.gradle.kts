@@ -29,7 +29,7 @@ version = "0.1.3"
 
 project.extra["PluginName"] = "Quest navigator" // This is the name that is used in the external plugin manager panel
 project.extra["PluginDescription"] = "Quest navigator plugin" // This is the description that is used in the external plugin manager panel
-//
+///
 dependencies {
     annotationProcessor(Libraries.lombok)
     annotationProcessor(Libraries.pf4j)
