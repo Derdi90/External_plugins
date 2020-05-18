@@ -15,7 +15,7 @@ apply<BootstrapPlugin>()
 subprojects {
     group = "com.example"
 
-    project.extra["PluginProvider"] = ""
+    project.extra["PluginProvider"] = "Wolfje own"
     project.extra["ProjectSupportUrl"] = ""
     project.extra["PluginLicense"] = "3-Clause BSD License"
 
