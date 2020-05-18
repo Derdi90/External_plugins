@@ -1,4 +1,4 @@
-package com.example.javaexample;
+package com.example.QuestNavigator;
 
 import com.google.inject.Provides;
 import javax.inject.Inject;
@@ -18,17 +18,17 @@ import org.pf4j.Extension;
 	type = PluginType.MISCELLANEOUS
 )
 @Slf4j
-public class JavaExamplePlugin extends Plugin
+public class QuestNavigatorPlugin extends Plugin
 {
 	// Injects our config
 	@Inject
-	private JavaExampleConfig config;
+	private QuestNavigatorConfig config;
 
 	// Provides our config
 	@Provides
-	JavaExampleConfig provideConfig(ConfigManager configManager)
+	QuestNavigatorConfig provideConfig(ConfigManager configManager)
 	{
-		return configManager.getConfig(JavaExampleConfig.class);
+		return configManager.getConfig(QuestNavigatorConfig.class);
 	}
 
 	@Override

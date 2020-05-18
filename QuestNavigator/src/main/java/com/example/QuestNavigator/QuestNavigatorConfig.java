@@ -22,20 +22,20 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.example.javaexample;
+package com.example.QuestNavigator;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("JavaExampleConfig")
+@ConfigGroup("QuestNavigatorConfig")
 
-public interface JavaExampleConfig extends Config
+public interface QuestNavigatorConfig extends Config
 {
 	@ConfigItem(
-		keyName = "example",
-		name = "Example config item",
-		description = "Example",
+		keyName = "questnavigator",
+		name = "Quest navigator",
+		description = "Used as a navigation tool to locate quest locations.",
 		position = 0
 	)
 	default boolean example()

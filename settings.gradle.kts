@@ -23,10 +23,8 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-rootProject.name = "external plugins example"
+rootProject.name = "External plugins"
 
-include(":kotlinexample")
-include(":javaexample")
 include(":QuestNavigator")
 
 for (project in rootProject.children) {
