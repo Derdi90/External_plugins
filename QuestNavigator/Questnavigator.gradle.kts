@@ -27,7 +27,7 @@ import ProjectVersions.openosrsVersion
 
 version = "0.1.2"
 
-project.extra["PluginName"] = "Quest navigator" // This is the name that is used in the external plugin manager panel
+project.extra["PluginName"] = "Quest navigator33" // This is the name that is used in the external plugin manager panel
 project.extra["PluginDescription"] = "Quest navigator plugin" // This is the description that is used in the external plugin manager panel
 
 dependencies {
